@@ -3,7 +3,7 @@
 import java.util.Scanner;
 import java.util.*;
 public class Main{
-   /* public static boolean check1(int a[][], int n, int x, int y) {
+    public static boolean check1(int a[][], int n, int x, int y) {
         for (int j = 0; j < n; j++)
             if (a[x][j] > a[x][y])
                 return false;
@@ -70,7 +70,7 @@ public class Main{
         }
 
         System.out.println(ans);
-    }*/
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
